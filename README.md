@@ -9,6 +9,7 @@
   <li>Moi même (<a href="https://dounyadelren.github.io/Portfolio_DounyaDerlen/">Portfolio</a>)</li>
 </ul>
 <p>Nous avons eu un mois pour recréer un clône de Twitter avec la plupart de ses fonctionnalités. Fraichement sortis d'une grosse période d'apprentissage nous avons mis à profit toutes les connaissances que nous avions cumulées sur PHP, MYSQL, Javascript (les requêtes Ajax notamment) ainsi que la structure d'un site web en MVC (une rapide ébauche sur ce projet)</p>
+<p>Contrainte : interdiction d'utiliser un <u>framework</u></p>
 
 <h3>Installation : </h3>
 <p>Rien de plus simple ! Il vous suffit de clôner ce repertoire et lancer votre serveur Apache.</p>
