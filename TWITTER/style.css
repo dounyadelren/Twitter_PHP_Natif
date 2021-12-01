@@ -1,0 +1,361 @@
+/* #00c2f0  */
+
+/*INSCRIPTION*/
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+}
+
+#formulaire_co {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+}
+
+#password {
+    display: inline-block;
+}
+
+/* NAV BAR */
+
+ul {
+    list-style: none;
+}
+
+ul :hover {
+    color: black;
+}
+
+li {
+    padding-left: 10px;
+}
+
+.icon :hover {
+    /* border: solid 1px rgba(0, 0, 0, 0.05); */
+    border-radius: 20px;
+    background-color: rgb(231, 231, 232);
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+.btn_tweeter {
+    border-radius: 17px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+/* IMAGES NAV BAR */
+
+.icon li .flex {
+    vertical-align: middle;
+    padding-right: 30px;
+}
+
+.profilPic_nav {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    max-width: 100%;
+    padding-right: 10px;
+    margin-bottom: -25px;
+}
+
+#username_nav {
+    margin-left: 60px;
+    color: grey;
+}
+
+/* ESPACE TWEETER */
+
+.middle {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    padding-left: 20px;
+    padding-right: 20px;
+    /* margin-left: 250px;   */
+}
+
+hr {
+    opacity: 40%;
+    width: 100%;
+}
+
+#hr_timeline {
+    margin-top: -20px;
+}
+
+#input_tweet {
+    width: 430px;
+    margin-right: 10px;
+    border: none;
+    resize: none;
+}
+
+#btn_tweeter {
+    background-color: #7fccf8;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 17px;
+    margin-top: -55px;
+    float: right;
+}
+
+.media_link {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.media_link:hover {
+    padding: 15px;
+    background-color: rgba(0, 194, 240, 0.25);
+    border-radius: 30%;
+}
+
+/* TIMELINE */
+
+#timeline {
+    overflow: auto;
+}
+
+.tweet {
+    padding-top: 10px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.05);
+}
+
+.tweetHead {
+    margin-top: 5px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tweetName {
+    display: flex;
+    flex-direction: row;
+    max-height: 25px;
+    margin: 0px;
+    width: 100%;
+}
+
+#username {
+    margin-left: 7px;
+    margin-top: 7px;
+    color: grey;
+}
+
+.tweetContent {
+    margin-left: 70px;
+}
+
+.profilPic {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    max-width: 100%;
+    padding-right: 15px;
+}
+
+.like {
+    width: 20px;
+    height: 20px;
+    background-image: url('assets_twitter/heart20.png');
+    cursor: pointer;
+}
+
+.like:hover {
+    background-image: url('assets_twitter/heart_hover20.png');
+    cursor: pointer;
+}
+
+.suivre {
+    float: right;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.blocProfil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.tweetFoot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tweetFoot p {
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+.footer {
+    position: fixed;
+    right: 0;
+    width: 100%;
+    margin-right: -50px;
+}
+
+#recherche {
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 40%;
+}
+
+.bloc_un {
+    width: 50%;
+    height: 120px;
+    background:lightgray;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    text-align: center;
+}
+.bloc_deux img{
+    width: 50%;
+    height: 90%;
+    border-radius: 20px;
+}
+
+/* THEMES */
+
+/* VARIABLES */
+
+body {
+    color: var(--font-color);
+    background: var(--bg-color);
+}
+
+body a {
+    color: var(--a-color);
+}
+
+body textarea {
+    background: var(--bg-color);
+}
+
+/* CLAIR */
+
+body.light-theme {
+    --font-color: black;
+    --bg-color: white;
+}
+
+body.light-theme a {
+    --a-color: black;
+}
+
+/* BLEU */
+
+body.blue-theme {
+    --font-color: white;
+    --bg-color: rgb(20, 32, 43);
+}
+
+body.blue-theme a {
+    --a-color: white;
+}
+
+body.blue-theme textarea {
+    --bg-color: white;
+}
+
+/* SOMBRE */
+
+body.black-theme {
+    --font-color: white;
+    --bg-color: black;
+}
+
+body.black-theme a {
+    --a-color: white;
+}
+
+body.black-theme textarea {
+    --bg-color: white;
+}
+
+/* ROSE */
+
+body.pink-theme {
+    --font-color: black;
+    --bg-color: rgb(255, 225, 230);
+}
+
+body.pink-theme a {
+    --a-color: black;
+}
+
+body.pink-theme textarea {
+    --bg-color: rgb(255, 225, 230);
+}
+
+/* PROFIL */
+
+.profilPic_profil {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+    padding-right: 15px;
+}
+
+#edit_nom {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#edit_prenom {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#edit_mail {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#edit_phone {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#edit_descri {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#input_descri {
+    resize: none;
+    width: 206px;
+    vertical-align: middle;
+}
+
+/* DM */
+
+#input_dm {
+    resize: none;
+    width: 500px;
+    height: 200px;
+}
