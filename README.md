@@ -9,6 +9,7 @@
   <li>Corentin Nordmann (<a href="https://github.com/CorentinNrd">Github</a>, <a href="https://corentinnrd.github.io/Portfolio-Corentin/">Portfolio</a>)</li>
   <li>Nolwenn Sibiril (<a href="https://github.com/Nolwenn14">GitHub</a>, Portoflio à venir)</li>
   <li>Moi même (<a href="https://dounyadelren.github.io/Portfolio_DounyaDerlen/">Portfolio</a>)</li>
+  <li>NB //!!!\\ --> vous pouvez retrouver une vidéo démo de ce projet sur mon portfolio</li>
 </ul>
 <p>Nous avons eu un mois pour recréer un clône de Twitter avec la plupart de ses fonctionnalités. Fraichement sortis d'une grosse période d'apprentissage nous avons mis à profit toutes les connaissances que nous avions cumulées sur PHP, MYSQL, Javascript (les requêtes Ajax notamment) ainsi que la structure d'un site web en MVC (une rapide ébauche sur ce projet)</p>
 <p>Contrainte : interdiction d'utiliser un <u>framework</u></p>
