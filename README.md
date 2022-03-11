@@ -1,8 +1,8 @@
-<img src="https://user-images.githubusercontent.com/83210905/145019176-366dee61-16ed-4f00-87cf-5cf50982e4cd.jpg" />
+<img src="twitter.jpg" />
 
 
 
-<h3>Présentation</h3>
+<h1 align="center">Présentation</h1>
 
 <p>Ce projet a été réalisé par un groupe de 3 personnes:</p>
 <ul>
